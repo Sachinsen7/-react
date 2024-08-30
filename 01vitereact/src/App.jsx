@@ -1,8 +1,13 @@
+import Qaran from "./qaran"
+
 
 function App() {
-
+  const username = "chai aur code"
   return (
-    <h1>chai aur react with vite | Sachin</h1>
+    <>
+    <Qaran/>
+    <h2>Hi this sachin {username}</h2>
+    </>
   )
 }
 
